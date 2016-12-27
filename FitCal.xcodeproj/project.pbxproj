@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198F20F8348FF59E132DA27F /* Pods_FitCalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C082B583B397B46A9269814D /* Pods_FitCalTests.framework */; };
+		544432341DF9C11900DEA55E /* Buttons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544432321DF9BF2D00DEA55E /* Buttons.xcassets */; };
+		544432351DF9C95200DEA55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BCC11D1C89DFBF00155579 /* Assets.xcassets */; };
+		548CA2491E123342007530FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BCC11D1C89DFBF00155579 /* Assets.xcassets */; };
+		7E17425F6628D63A7413EF50 /* Pods_FitCal_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB97C0159DE1B6F29D7FF258 /* Pods_FitCal_Watch.framework */; };
+		9311B6961DDB86950057ABEE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BFAAA71DDB5C81001746DC /* CalendarViewController.swift */; };
+		93BCC1171C89DFBF00155579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC1161C89DFBF00155579 /* AppDelegate.swift */; };
+		93BCC1191C89DFBF00155579 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC1181C89DFBF00155579 /* MealViewController.swift */; };
+		93BCC11C1C89DFBF00155579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BCC11A1C89DFBF00155579 /* Main.storyboard */; };
+		93BCC1211C89DFBF00155579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BCC11F1C89DFBF00155579 /* LaunchScreen.storyboard */; };
+		93BCC12C1C89DFBF00155579 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC12B1C89DFBF00155579 /* FoodTrackerTests.swift */; };
+		93BCC1371C8B9D3C00155579 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC1361C8B9D3C00155579 /* RatingControl.swift */; };
+		93BCC1391C8F260000155579 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC1381C8F260000155579 /* Task.swift */; };
+		93BCC13A1C8F260000155579 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC1381C8F260000155579 /* Task.swift */; };
+		93BCC13C1C8F2BAE00155579 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC13B1C8F2BAE00155579 /* MealTableViewCell.swift */; };
+		93BCC13E1C9238B900155579 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC13D1C9238B900155579 /* MealTableViewController.swift */; };
+		93F967981DCFB4EF001687CA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F967961DCFB4EF001687CA /* Interface.storyboard */; };
+		93F967A11DCFB4EF001687CA /* FitCal Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 93F967A01DCFB4EF001687CA /* FitCal Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		93F967A81DCFB4EF001687CA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F967A71DCFB4EF001687CA /* InterfaceController.swift */; };
+		93F967AA1DCFB4EF001687CA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F967A91DCFB4EF001687CA /* ExtensionDelegate.swift */; };
+		93F967AC1DCFB4EF001687CA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F967AB1DCFB4EF001687CA /* NotificationController.swift */; };
+		93F967AE1DCFB4EF001687CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F967AD1DCFB4EF001687CA /* Assets.xcassets */; };
+		93F967B21DCFB4F0001687CA /* FitCal Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 93F967941DCFB4EF001687CA /* FitCal Watch.app */; };
+		A173260F6DBC247AFE47A742 /* Pods_FoodTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B33E5DE4400FCFEF0843DD5 /* Pods_FoodTrackerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93BCC1281C89DFBF00155579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BCC10B1C89DFBF00155579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BCC1121C89DFBF00155579;
+			remoteInfo = FoodTracker;
+		};
+		93F967A21DCFB4EF001687CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BCC10B1C89DFBF00155579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F9679F1DCFB4EF001687CA;
+			remoteInfo = "FitCal Watch Extension";
+		};
+		93F967B01DCFB4F0001687CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BCC10B1C89DFBF00155579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F967931DCFB4EF001687CA;
+			remoteInfo = "FitCal Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93F967B61DCFB4F0001687CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				93F967A11DCFB4EF001687CA /* FitCal Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F967BA1DCFB4F0001687CA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				93F967B21DCFB4F0001687CA /* FitCal Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0808832334FA9E915C011D75 /* Pods-FoodTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrackerTests/Pods-FoodTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1282805D5F50EABC74B1C9CF /* Pods-FoodTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTracker/Pods-FoodTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		1B33E5DE4400FCFEF0843DD5 /* Pods_FoodTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		226EEDED9A71FEAFCF94BA21 /* Pods_FitCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406284752C7AACCCB179D048 /* Pods-FitCal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCal.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitCal/Pods-FitCal.release.xcconfig"; sourceTree = "<group>"; };
+		4C7A93E949C8EC6DDF3DCD28 /* Pods-FitCalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitCalTests/Pods-FitCalTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E47F2A5566079044C1C37BC /* Pods-FitCal Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCal Watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitCal Watch/Pods-FitCal Watch.debug.xcconfig"; sourceTree = "<group>"; };
+		544432321DF9BF2D00DEA55E /* Buttons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Buttons.xcassets; path = ../FitCal/Buttons.xcassets; sourceTree = "<group>"; };
+		67DB639000C6BF703D154F0A /* Pods-FitCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitCal/Pods-FitCal.debug.xcconfig"; sourceTree = "<group>"; };
+		6C76938A429EAE821E7534C2 /* Pods-FoodTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrackerTests/Pods-FoodTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77DC1399D838D75D4CC8D9DF /* Pods-FoodTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTracker/Pods-FoodTracker.release.xcconfig"; sourceTree = "<group>"; };
+		801960ABF74037C297F39CDC /* Pods-FitCal Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCal Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitCal Watch Extension/Pods-FitCal Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		93BCC1131C89DFBF00155579 /* FitCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BCC1161C89DFBF00155579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93BCC1181C89DFBF00155579 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		93BCC11B1C89DFBF00155579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93BCC11D1C89DFBF00155579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93BCC1201C89DFBF00155579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93BCC1221C89DFBF00155579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BCC1271C89DFBF00155579 /* FitCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BCC12B1C89DFBF00155579 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
+		93BCC12D1C89DFBF00155579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BCC1361C8B9D3C00155579 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		93BCC1381C8F260000155579 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		93BCC13B1C8F2BAE00155579 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		93BCC13D1C9238B900155579 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		93BFAAA71DDB5C81001746DC /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		93F967941DCFB4EF001687CA /* FitCal Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitCal Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F967971DCFB4EF001687CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		93F967991DCFB4EF001687CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F9679B1DCFB4EF001687CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F967A01DCFB4EF001687CA /* FitCal Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FitCal Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F967A61DCFB4EF001687CA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		93F967A71DCFB4EF001687CA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		93F967A91DCFB4EF001687CA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		93F967AB1DCFB4EF001687CA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		93F967AD1DCFB4EF001687CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F967AF1DCFB4F0001687CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C082B583B397B46A9269814D /* Pods_FitCalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5FF4EEB8E5C91E1BDC0450 /* Pods_FitCal_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCal_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3020144E2E220E52BFE3223 /* Pods-FitCalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitCalTests/Pods-FitCalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8DEF4EBF34DAC80D18D09C /* Pods-FitCal Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCal Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitCal Watch Extension/Pods-FitCal Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E2A7EE8E19614B873E6E2FE6 /* Pods-FitCal Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCal Watch.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitCal Watch/Pods-FitCal Watch.release.xcconfig"; sourceTree = "<group>"; };
+		E587C40FE865B4DBF7EB7722 /* Pods_FoodTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB97C0159DE1B6F29D7FF258 /* Pods_FitCal_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCal_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BCC1101C89DFBF00155579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCC1241C89DFBF00155579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173260F6DBC247AFE47A742 /* Pods_FoodTrackerTests.framework in Frameworks */,
+				198F20F8348FF59E132DA27F /* Pods_FitCalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F9679D1DCFB4EF001687CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE045A1BC6F27ECC8D677B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E17425F6628D63A7413EF50 /* Pods_FitCal_Watch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522D90C42EC999698D634ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB97C0159DE1B6F29D7FF258 /* Pods_FitCal_Watch.framework */,
+				CA5FF4EEB8E5C91E1BDC0450 /* Pods_FitCal_Watch_Extension.framework */,
+				E587C40FE865B4DBF7EB7722 /* Pods_FoodTracker.framework */,
+				1B33E5DE4400FCFEF0843DD5 /* Pods_FoodTrackerTests.framework */,
+				226EEDED9A71FEAFCF94BA21 /* Pods_FitCal.framework */,
+				C082B583B397B46A9269814D /* Pods_FitCalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93BCC10A1C89DFBF00155579 = {
+			isa = PBXGroup;
+			children = (
+				93BCC1381C8F260000155579 /* Task.swift */,
+				93BCC1151C89DFBF00155579 /* FitCal */,
+				93BCC12A1C89DFBF00155579 /* FitCalTests */,
+				93F967951DCFB4EF001687CA /* FitCal Watch */,
+				93F967A41DCFB4EF001687CA /* FitCal Watch Extension */,
+				93BCC1141C89DFBF00155579 /* Products */,
+				B88ABAE2D32A1E37E2CFBFF8 /* Pods */,
+				522D90C42EC999698D634ED7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93BCC1141C89DFBF00155579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BCC1131C89DFBF00155579 /* FitCal.app */,
+				93BCC1271C89DFBF00155579 /* FitCalTests.xctest */,
+				93F967941DCFB4EF001687CA /* FitCal Watch.app */,
+				93F967A01DCFB4EF001687CA /* FitCal Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93BCC1151C89DFBF00155579 /* FitCal */ = {
+			isa = PBXGroup;
+			children = (
+				93BCC1161C89DFBF00155579 /* AppDelegate.swift */,
+				93BCC1181C89DFBF00155579 /* MealViewController.swift */,
+				93BCC1361C8B9D3C00155579 /* RatingControl.swift */,
+				93BCC11A1C89DFBF00155579 /* Main.storyboard */,
+				93BCC13D1C9238B900155579 /* MealTableViewController.swift */,
+				93BCC13B1C8F2BAE00155579 /* MealTableViewCell.swift */,
+				93BCC11D1C89DFBF00155579 /* Assets.xcassets */,
+				93BCC11F1C89DFBF00155579 /* LaunchScreen.storyboard */,
+				93BCC1221C89DFBF00155579 /* Info.plist */,
+				93BFAAA71DDB5C81001746DC /* CalendarViewController.swift */,
+			);
+			path = FitCal;
+			sourceTree = "<group>";
+		};
+		93BCC12A1C89DFBF00155579 /* FitCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				93BCC12B1C89DFBF00155579 /* FoodTrackerTests.swift */,
+				93BCC12D1C89DFBF00155579 /* Info.plist */,
+			);
+			path = FitCalTests;
+			sourceTree = "<group>";
+		};
+		93F967951DCFB4EF001687CA /* FitCal Watch */ = {
+			isa = PBXGroup;
+			children = (
+				544432321DF9BF2D00DEA55E /* Buttons.xcassets */,
+				93F967961DCFB4EF001687CA /* Interface.storyboard */,
+				93F967991DCFB4EF001687CA /* Assets.xcassets */,
+				93F9679B1DCFB4EF001687CA /* Info.plist */,
+			);
+			path = "FitCal Watch";
+			sourceTree = "<group>";
+		};
+		93F967A41DCFB4EF001687CA /* FitCal Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				93F967A71DCFB4EF001687CA /* InterfaceController.swift */,
+				93F967A91DCFB4EF001687CA /* ExtensionDelegate.swift */,
+				93F967AB1DCFB4EF001687CA /* NotificationController.swift */,
+				93F967AD1DCFB4EF001687CA /* Assets.xcassets */,
+				93F967AF1DCFB4F0001687CA /* Info.plist */,
+				93F967A51DCFB4EF001687CA /* Supporting Files */,
+			);
+			path = "FitCal Watch Extension";
+			sourceTree = "<group>";
+		};
+		93F967A51DCFB4EF001687CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93F967A61DCFB4EF001687CA /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B88ABAE2D32A1E37E2CFBFF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E47F2A5566079044C1C37BC /* Pods-FitCal Watch.debug.xcconfig */,
+				E2A7EE8E19614B873E6E2FE6 /* Pods-FitCal Watch.release.xcconfig */,
+				DE8DEF4EBF34DAC80D18D09C /* Pods-FitCal Watch Extension.debug.xcconfig */,
+				801960ABF74037C297F39CDC /* Pods-FitCal Watch Extension.release.xcconfig */,
+				1282805D5F50EABC74B1C9CF /* Pods-FoodTracker.debug.xcconfig */,
+				77DC1399D838D75D4CC8D9DF /* Pods-FoodTracker.release.xcconfig */,
+				6C76938A429EAE821E7534C2 /* Pods-FoodTrackerTests.debug.xcconfig */,
+				0808832334FA9E915C011D75 /* Pods-FoodTrackerTests.release.xcconfig */,
+				67DB639000C6BF703D154F0A /* Pods-FitCal.debug.xcconfig */,
+				406284752C7AACCCB179D048 /* Pods-FitCal.release.xcconfig */,
+				D3020144E2E220E52BFE3223 /* Pods-FitCalTests.debug.xcconfig */,
+				4C7A93E949C8EC6DDF3DCD28 /* Pods-FitCalTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BCC1121C89DFBF00155579 /* FitCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BCC1301C89DFBF00155579 /* Build configuration list for PBXNativeTarget "FitCal" */;
+			buildPhases = (
+				28FC947FD51CCB2308C099D7 /* [CP] Check Pods Manifest.lock */,
+				93BCC10F1C89DFBF00155579 /* Sources */,
+				93BCC1101C89DFBF00155579 /* Frameworks */,
+				93BCC1111C89DFBF00155579 /* Resources */,
+				93F967BA1DCFB4F0001687CA /* Embed Watch Content */,
+				8A7518CBDC60FE0269DE3B2A /* [CP] Embed Pods Frameworks */,
+				A5E36C66A49CAD869F687942 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F967B11DCFB4F0001687CA /* PBXTargetDependency */,
+			);
+			name = FitCal;
+			productName = FoodTracker;
+			productReference = 93BCC1131C89DFBF00155579 /* FitCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93BCC1261C89DFBF00155579 /* FitCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BCC1331C89DFBF00155579 /* Build configuration list for PBXNativeTarget "FitCalTests" */;
+			buildPhases = (
+				0EE033807B240BF9EE2881B1 /* [CP] Check Pods Manifest.lock */,
+				93BCC1231C89DFBF00155579 /* Sources */,
+				93BCC1241C89DFBF00155579 /* Frameworks */,
+				93BCC1251C89DFBF00155579 /* Resources */,
+				AE118C40B50BE1CAE974A311 /* [CP] Embed Pods Frameworks */,
+				764CD267B13B36BF2C1390E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BCC1291C89DFBF00155579 /* PBXTargetDependency */,
+			);
+			name = FitCalTests;
+			productName = FoodTrackerTests;
+			productReference = 93BCC1271C89DFBF00155579 /* FitCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93F967931DCFB4EF001687CA /* FitCal Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F967B71DCFB4F0001687CA /* Build configuration list for PBXNativeTarget "FitCal Watch" */;
+			buildPhases = (
+				DCFA22AF127CD1B0E3653B7F /* [CP] Check Pods Manifest.lock */,
+				93F967921DCFB4EF001687CA /* Resources */,
+				93F967B61DCFB4F0001687CA /* Embed App Extensions */,
+				BE045A1BC6F27ECC8D677B6F /* Frameworks */,
+				26119608C3DAA6C1DD2633F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F967A31DCFB4EF001687CA /* PBXTargetDependency */,
+			);
+			name = "FitCal Watch";
+			productName = "FitCal Watch";
+			productReference = 93F967941DCFB4EF001687CA /* FitCal Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		93F9679F1DCFB4EF001687CA /* FitCal Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F967B31DCFB4F0001687CA /* Build configuration list for PBXNativeTarget "FitCal Watch Extension" */;
+			buildPhases = (
+				69C7AA89FDD35D87E5280A20 /* [CP] Check Pods Manifest.lock */,
+				93F9679C1DCFB4EF001687CA /* Sources */,
+				93F9679D1DCFB4EF001687CA /* Frameworks */,
+				93F9679E1DCFB4EF001687CA /* Resources */,
+				2A17C556AB0703BB54585877 /* [CP] Embed Pods Frameworks */,
+				38B2633055CFFAC915EEEDFA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitCal Watch Extension";
+			productName = "FitCal Watch Extension";
+			productReference = 93F967A01DCFB4EF001687CA /* FitCal Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BCC10B1C89DFBF00155579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mason Wesolek";
+				TargetAttributes = {
+					93BCC1121C89DFBF00155579 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 46HMG8GAVG;
+						LastSwiftMigration = 0800;
+					};
+					93BCC1261C89DFBF00155579 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 46HMG8GAVG;
+						LastSwiftMigration = 0800;
+						TestTargetID = 93BCC1121C89DFBF00155579;
+					};
+					93F967931DCFB4EF001687CA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 46HMG8GAVG;
+						ProvisioningStyle = Automatic;
+					};
+					93F9679F1DCFB4EF001687CA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 46HMG8GAVG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93BCC10E1C89DFBF00155579 /* Build configuration list for PBXProject "FitCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BCC10A1C89DFBF00155579;
+			productRefGroup = 93BCC1141C89DFBF00155579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BCC1121C89DFBF00155579 /* FitCal */,
+				93BCC1261C89DFBF00155579 /* FitCalTests */,
+				93F967931DCFB4EF001687CA /* FitCal Watch */,
+				93F9679F1DCFB4EF001687CA /* FitCal Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BCC1111C89DFBF00155579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548CA2491E123342007530FD /* Assets.xcassets in Resources */,
+				93BCC1211C89DFBF00155579 /* LaunchScreen.storyboard in Resources */,
+				93BCC11C1C89DFBF00155579 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCC1251C89DFBF00155579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F967921DCFB4EF001687CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544432341DF9C11900DEA55E /* Buttons.xcassets in Resources */,
+				544432351DF9C95200DEA55E /* Assets.xcassets in Resources */,
+				93F967981DCFB4EF001687CA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F9679E1DCFB4EF001687CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F967AE1DCFB4EF001687CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE033807B240BF9EE2881B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26119608C3DAA6C1DD2633F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitCal Watch/Pods-FitCal Watch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28FC947FD51CCB2308C099D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A17C556AB0703BB54585877 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitCal Watch Extension/Pods-FitCal Watch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B2633055CFFAC915EEEDFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitCal Watch Extension/Pods-FitCal Watch Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C7AA89FDD35D87E5280A20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		764CD267B13B36BF2C1390E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitCalTests/Pods-FitCalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A7518CBDC60FE0269DE3B2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitCal/Pods-FitCal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E36C66A49CAD869F687942 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitCal/Pods-FitCal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE118C40B50BE1CAE974A311 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitCalTests/Pods-FitCalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFA22AF127CD1B0E3653B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BCC10F1C89DFBF00155579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BCC1391C8F260000155579 /* Task.swift in Sources */,
+				93BCC1191C89DFBF00155579 /* MealViewController.swift in Sources */,
+				93BCC1371C8B9D3C00155579 /* RatingControl.swift in Sources */,
+				93BCC1171C89DFBF00155579 /* AppDelegate.swift in Sources */,
+				93BCC13E1C9238B900155579 /* MealTableViewController.swift in Sources */,
+				9311B6961DDB86950057ABEE /* CalendarViewController.swift in Sources */,
+				93BCC13C1C8F2BAE00155579 /* MealTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCC1231C89DFBF00155579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BCC13A1C8F260000155579 /* Task.swift in Sources */,
+				93BCC12C1C89DFBF00155579 /* FoodTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F9679C1DCFB4EF001687CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F967AC1DCFB4EF001687CA /* NotificationController.swift in Sources */,
+				93F967AA1DCFB4EF001687CA /* ExtensionDelegate.swift in Sources */,
+				93F967A81DCFB4EF001687CA /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93BCC1291C89DFBF00155579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BCC1121C89DFBF00155579 /* FitCal */;
+			targetProxy = 93BCC1281C89DFBF00155579 /* PBXContainerItemProxy */;
+		};
+		93F967A31DCFB4EF001687CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F9679F1DCFB4EF001687CA /* FitCal Watch Extension */;
+			targetProxy = 93F967A21DCFB4EF001687CA /* PBXContainerItemProxy */;
+		};
+		93F967B11DCFB4F0001687CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F967931DCFB4EF001687CA /* FitCal Watch */;
+			targetProxy = 93F967B01DCFB4F0001687CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93BCC11A1C89DFBF00155579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BCC11B1C89DFBF00155579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93BCC11F1C89DFBF00155579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BCC1201C89DFBF00155579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		93F967961DCFB4EF001687CA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F967971DCFB4EF001687CA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93BCC12E1C89DFBF00155579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93BCC12F1C89DFBF00155579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93BCC1311C89DFBF00155579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DB639000C6BF703D154F0A /* Pods-FitCal.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46HMG8GAVG;
+				INFOPLIST_FILE = FitCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mason.FitCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		93BCC1321C89DFBF00155579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406284752C7AACCCB179D048 /* Pods-FitCal.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46HMG8GAVG;
+				INFOPLIST_FILE = FitCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mason.FitCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		93BCC1341C89DFBF00155579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3020144E2E220E52BFE3223 /* Pods-FitCalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoodTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitCal.app/FitCal";
+			};
+			name = Debug;
+		};
+		93BCC1351C89DFBF00155579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7A93E949C8EC6DDF3DCD28 /* Pods-FitCalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoodTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitCal.app/FitCal";
+			};
+			name = Release;
+		};
+		93F967B41DCFB4F0001687CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8DEF4EBF34DAC80D18D09C /* Pods-FitCal Watch Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 46HMG8GAVG;
+				INFOPLIST_FILE = "FitCal Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mason.FitCal.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		93F967B51DCFB4F0001687CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801960ABF74037C297F39CDC /* Pods-FitCal Watch Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 46HMG8GAVG;
+				INFOPLIST_FILE = "FitCal Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mason.FitCal.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		93F967B81DCFB4F0001687CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E47F2A5566079044C1C37BC /* Pods-FitCal Watch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 46HMG8GAVG;
+				IBSC_MODULE = FitCal_Watch_Extension;
+				INFOPLIST_FILE = "FitCal Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mason.FitCal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		93F967B91DCFB4F0001687CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A7EE8E19614B873E6E2FE6 /* Pods-FitCal Watch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 46HMG8GAVG;
+				IBSC_MODULE = FitCal_Watch_Extension;
+				INFOPLIST_FILE = "FitCal Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mason.FitCal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BCC10E1C89DFBF00155579 /* Build configuration list for PBXProject "FitCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BCC12E1C89DFBF00155579 /* Debug */,
+				93BCC12F1C89DFBF00155579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BCC1301C89DFBF00155579 /* Build configuration list for PBXNativeTarget "FitCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BCC1311C89DFBF00155579 /* Debug */,
+				93BCC1321C89DFBF00155579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BCC1331C89DFBF00155579 /* Build configuration list for PBXNativeTarget "FitCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BCC1341C89DFBF00155579 /* Debug */,
+				93BCC1351C89DFBF00155579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F967B31DCFB4F0001687CA /* Build configuration list for PBXNativeTarget "FitCal Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F967B41DCFB4F0001687CA /* Debug */,
+				93F967B51DCFB4F0001687CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F967B71DCFB4F0001687CA /* Build configuration list for PBXNativeTarget "FitCal Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F967B81DCFB4F0001687CA /* Debug */,
+				93F967B91DCFB4F0001687CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BCC10B1C89DFBF00155579 /* Project object */;
+}

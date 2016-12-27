@@ -1,0 +1,1291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0322AE7C7462E52BC171E049DA92022E /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F4A4742510057D560625FF4C2A170 /* CVCalendarDayView.swift */; };
+		0B4589C16BC8A0E4F14B76F9685DF6C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		181A5BEBDEC34C4925EC344017951FBE /* Pods-FitCal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5BDFB55E674C4D0D1D1908F863747 /* Pods-FitCal-dummy.m */; };
+		1F5D23A64CF405A7E27E703991D06DBE /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B76415ED175398C3A7573D06E89F28 /* CVCalendarMonthContentViewController.swift */; };
+		279E99C60593DC32BD673C21C29578D4 /* DropdownMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC0A77A6BBE02C7C260B93FE4F9BE6 /* DropdownMenuController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2BE9B52BEAAE87DDC01D1D3331348CCC /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9E2F6C5604F8510912384748E07A7 /* CVAuxiliaryView.swift */; };
+		2FA521C41374B41D883F61D16FD75932 /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C968415E91692C8F1A68EEDF80DCEF1 /* CVCalendarViewAnimator.swift */; };
+		3187AD214B8A128053AEB1396C64FB47 /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E6E9EE09140072404D6A685841F12 /* CVCalendarWeekday.swift */; };
+		37DB37246156B4060755A627B52A619E /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F845061F94FF62F50985C1B7E1230 /* CVCalendarTouchController.swift */; };
+		392889B514B38D80F9CC51D622AF87B3 /* Pods-FitCal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216B461ACAC97E367F6EE95415965A8 /* Pods-FitCal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AA14958B5E6E03A96F232492EE8C27E /* CVStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D975658AA8E0C43631789D1F400A0 /* CVStatus.swift */; };
+		472F8C4F8FECD05D59FC63A7B417CA9B /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9F02FC20D2BF6CB329A64F89B42D9 /* CVCalendarDayViewControlCoordinator.swift */; };
+		482EBA56488C9532C984C87C00F8F22E /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F8607622B6BF1147032ADE053402C7 /* CVWeekdaySymbolType.swift */; };
+		4B02C653A7A10BDFD0F1578C30608E01 /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AB35BC3DCCED67E06AA2B98F34D92 /* CVCalendarViewAppearanceDelegate.swift */; };
+		4BFAA7303CF59B7A4E6709B18AAAD2D2 /* Pods-FitCalTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B842E0AC65599D71CE3646B92BF82F2 /* Pods-FitCalTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DDF5D1A0800108955F0BEBF7FB90E39 /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA465DDB76E5C8E1DC7BB74B6EEF507 /* CVRange.swift */; };
+		4EAD6096E9BC7EED485BB7786EF67FFB /* Pods-FitCal Watch Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98D84FB13EE68E466B43532621978A /* Pods-FitCal Watch Extension-dummy.m */; };
+		5D98447F73FB2ED259ABBD03B5539316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5E861FE2E332746C71EEBD6B87FA8645 /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521086661BAFC0741CF9465F4888A23F /* CVSelectionType.swift */; };
+		6091583F819C7F554B8A7CF32E24E48B /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D47A35A1CE3EAB35678D00C54C292 /* CVCalendarView.swift */; };
+		618E66A5A98C5E7F029B2215CF5B2FA1 /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F58FF5493D598BE7AAF0942BF8D5508 /* CVCalendarContentViewController.swift */; };
+		6362B4F9B127E5347C35A39D08799F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6EF53A65E101500A228FD98A4583A17C /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E978248343CC8DDFE805B5D3FC6BF2C2 /* CVDate.swift */; };
+		759B73DEE436A1747B82091C96AA961A /* CVCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EBAC6598B35B4B103A22AAFB2C258 /* CVCalendar-dummy.m */; };
+		75C5A1D90F6B11EEA116F7E37B8489A4 /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43771317ED388FF0B5E47ADFC561A642 /* CVCalendarViewAnimatorDelegate.swift */; };
+		7F8851D118184CAE89E3323991380E7D /* Pods-FitCalTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 010A01A75582461990F87514F29EB0F0 /* Pods-FitCalTests-dummy.m */; };
+		84257876BADED68442A9E6BC411EF6E3 /* Pods-FitCal Watch Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C68DB45C5C2046B9701C899CD11D32B /* Pods-FitCal Watch Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DDFC1B550DA6697828F4A8E03C6C43C /* Pods-FitCal Watch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBD81D7A4227418984BF2B157A2C22F /* Pods-FitCal Watch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927C2DA86FF68008764A100588179345 /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35886B055FFEC8F2B3A03BB694A153FC /* CVCalendarWeekContentViewController.swift */; };
+		9528533A4FFDC6F4F2B667A46B116A4E /* DropdownMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = B199ECF508C00675B8D07B7E28807D59 /* DropdownMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96916A8003570201DCD0E76E4FB137E3 /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9C8AE7ACBD2A2AF5E6512BD7D7067 /* CVCalendarViewPresentationMode.swift */; };
+		982F36836B1D4478FABAF8ACB532BF99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9CE9189B3E4F8D15C3C6A216C6CFEADF /* CVCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1414D635CBB2AE28527952C57A3B0CBC /* CVCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9E8E248687AC537EE32C6542C62C1A /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167961A3BC874755AC3EAF237542C6CF /* CVShape.swift */; };
+		A03312DB6EBBFE6C6CDA2DBE1C5C797E /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B83E9EBD67420D95F59F27DB9839A8B /* CVCalendarMonthView.swift */; };
+		A324E434E5816AD7A6A81840A3B4B485 /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3084E4876D561B3737018F94C52B399A /* CVCalendarViewAppearance.swift */; };
+		A576EA3DA2A59B7D5F895DA93EC2623E /* DropdownMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 555788333AC734E2BEB11DAF1F4FC068 /* DropdownMenuSegue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA9B3EF50E5BEC5125DE794156B78F4B /* CVPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCF567F36B7E1D058DC4579C401912 /* CVPresent.swift */; };
+		ABC7DD626588A1B49D82914ECA7244C6 /* DropdownMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5177E77FD24CBBF980DCBEB977FA7AA /* DropdownMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE3A53847CAA752CD17754351D7937F1 /* Pods-FitCal Watch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4180288160192DC44215C920F13F59D5 /* Pods-FitCal Watch-dummy.m */; };
+		BF9E1BD4685A479CE551145294B4D510 /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A4D754F9BE591E2FA5425F1D5B946 /* CVCalendarManager.swift */; };
+		C04029AE7697F816777FEFAD3FC06E1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C990122E1A5B4C93AEEC3871B0C4B7BA /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F184F96A59631C57BC1775AE9303A7 /* CVCalendarMenuViewDelegate.swift */; };
+		CA4938CCC625FD1AACA9E736DC4F5904 /* DropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEB28FD0485577C1AA02F364FC94A08 /* DropdownMenu-dummy.m */; };
+		D418639C21B002580BAB5D8CCEBB61B7 /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A37C5D5B2EFE739DC4B319AE8EE3FA /* CVCalendarWeekView.swift */; };
+		D86BA5BA83082C8B77A632AB64F526CA /* DropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E20661B1022F6A81506BD9371A1AE4 /* DropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DACA772A4DD7003F779609A1A9195323 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C16C7A678DBA0D97F1A9302ECE9C3B /* CVScrollDirection.swift */; };
+		DDD3AF7B2B9A8451D4478B67A2598108 /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48E9DAA722406611C4CE9E1F01F6B2 /* CVCalendarMenuView.swift */; };
+		DE5752F189E7F6667629E7F3FB2E6E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E096D06B9EA504CB91B4067A3B746B18 /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E559D8A40857EA9B352571634482B660 /* CVSet.swift */; };
+		E11FAF75053E4CA9B59DAB23BA490034 /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADADDD769B679CF896C7EB50DF48EA2 /* CVCalendarViewDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87EC01E1CC8F33BAB7BAC080F8FE5ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EF0A874A01FFC4D77FBAEED4802A12;
+			remoteInfo = CVCalendar;
+		};
+		8B23C37C07E28F4B9C68241E172E580E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0E015881AA6DDE6378C3396CDE9EA0;
+			remoteInfo = DropdownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010A01A75582461990F87514F29EB0F0 /* Pods-FitCalTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitCalTests-dummy.m"; sourceTree = "<group>"; };
+		03B76415ED175398C3A7573D06E89F28 /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthContentViewController.swift; path = CVCalendar/CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
+		068F4A4742510057D560625FF4C2A170 /* CVCalendarDayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayView.swift; path = CVCalendar/CVCalendarDayView.swift; sourceTree = "<group>"; };
+		0DA3FC9BD5327F5C5CFD4DD67AC2C2CA /* Pods-FitCalTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitCalTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DDAECBA85A44A871FA621FD8CD9722A /* Pods-FitCal Watch Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitCal Watch Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		1414D635CBB2AE28527952C57A3B0CBC /* CVCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-umbrella.h"; sourceTree = "<group>"; };
+		145EBAC6598B35B4B103A22AAFB2C258 /* CVCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVCalendar-dummy.m"; sourceTree = "<group>"; };
+		148CA5B5C1F64F84FEF05CA682EAB931 /* Pods-FitCal Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitCal Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		167961A3BC874755AC3EAF237542C6CF /* CVShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVShape.swift; path = CVCalendar/CVShape.swift; sourceTree = "<group>"; };
+		1D326073542D655D03C4EA22E821ACDA /* Pods-FitCal Watch Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitCal Watch Extension-resources.sh"; sourceTree = "<group>"; };
+		22B9C8AE7ACBD2A2AF5E6512BD7D7067 /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewPresentationMode.swift; path = CVCalendar/CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		23FF7280B4B14B5123920DF099059579 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264F34D1CF4F7AAAD4C9A2A0391E0605 /* Pods-FitCal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitCal-frameworks.sh"; sourceTree = "<group>"; };
+		2AB82F1079A53EFDC34FD5D0A0816FF0 /* Pods-FitCalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitCalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C68DB45C5C2046B9701C899CD11D32B /* Pods-FitCal Watch Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitCal Watch Extension-umbrella.h"; sourceTree = "<group>"; };
+		2C968415E91692C8F1A68EEDF80DCEF1 /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimator.swift; path = CVCalendar/CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		3084E4876D561B3737018F94C52B399A /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearance.swift; path = CVCalendar/CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		341082BCEF519B8D12FB058DE4A46317 /* Pods-FitCal Watch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitCal Watch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34AE3886D358EDBF7A8A6978C14715FB /* DropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DropdownMenu.modulemap; sourceTree = "<group>"; };
+		35886B055FFEC8F2B3A03BB694A153FC /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekContentViewController.swift; path = CVCalendar/CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		37E49115C8D8797D1BE7B6A388D355A4 /* Pods-FitCal Watch Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitCal Watch Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AFB8F57AF84E5D9F3690E52C3E7A66E /* Pods-FitCal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitCal.release.xcconfig"; sourceTree = "<group>"; };
+		3DE6FE9F06E5DD1D956A8022C161B36D /* Pods-FitCal-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitCal-resources.sh"; sourceTree = "<group>"; };
+		3F58FF5493D598BE7AAF0942BF8D5508 /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentViewController.swift; path = CVCalendar/CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		3FDCF567F36B7E1D058DC4579C401912 /* CVPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVPresent.swift; path = CVCalendar/CVPresent.swift; sourceTree = "<group>"; };
+		4180288160192DC44215C920F13F59D5 /* Pods-FitCal Watch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitCal Watch-dummy.m"; sourceTree = "<group>"; };
+		41E2D2A223B644E7FDAB14C156117F72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43693BA1B8F41317949AB4F6AD09DA09 /* Pods-FitCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitCal.debug.xcconfig"; sourceTree = "<group>"; };
+		43771317ED388FF0B5E47ADFC561A642 /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimatorDelegate.swift; path = CVCalendar/CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		43E9F02FC20D2BF6CB329A64F89B42D9 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayViewControlCoordinator.swift; path = CVCalendar/CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		492AB35BC3DCCED67E06AA2B98F34D92 /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearanceDelegate.swift; path = CVCalendar/CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		49B5BDFB55E674C4D0D1D1908F863747 /* Pods-FitCal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitCal-dummy.m"; sourceTree = "<group>"; };
+		4C44EBDC04C52A58697084DE7E771100 /* Pods-FitCal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitCal-acknowledgements.plist"; sourceTree = "<group>"; };
+		521086661BAFC0741CF9465F4888A23F /* CVSelectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSelectionType.swift; path = CVCalendar/CVSelectionType.swift; sourceTree = "<group>"; };
+		535E15EEA7B3BEA01C9DCC779D9E0981 /* Pods-FitCal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitCal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54CF9CF8288172B5C30FEC0BBF3DE452 /* Pods_FitCalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FitCalTests.framework; path = "Pods-FitCalTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		555788333AC734E2BEB11DAF1F4FC068 /* DropdownMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DropdownMenuSegue.m; path = DropdownMenu/DropdownMenuSegue.m; sourceTree = "<group>"; };
+		56DFBC3DB4D1F88779D0DF203566E7AB /* Pods-FitCal Watch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitCal Watch-frameworks.sh"; sourceTree = "<group>"; };
+		5A6E6E9EE09140072404D6A685841F12 /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekday.swift; path = CVCalendar/CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		5CE05A8EBDC1AFB18A1C02B338846604 /* Pods-FitCal Watch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FitCal Watch.modulemap"; sourceTree = "<group>"; };
+		60A9E2F6C5604F8510912384748E07A7 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVAuxiliaryView.swift; path = CVCalendar/CVAuxiliaryView.swift; sourceTree = "<group>"; };
+		60AB1A7EFB0DBE6AF9C15128ABA68C62 /* CVCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVCalendar.xcconfig; sourceTree = "<group>"; };
+		612A867B84815B5B88BEC8961BD3A56E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61AA89317230582C48A2A4BEA5FE7D67 /* Pods-FitCal Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitCal Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		62839F63160F0FA28BA5BA678D952EAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65453F2BAABCD2457C99351A1C18EEE2 /* Pods-FitCalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitCalTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EBD81D7A4227418984BF2B157A2C22F /* Pods-FitCal Watch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitCal Watch-umbrella.h"; sourceTree = "<group>"; };
+		6FBC0A77A6BBE02C7C260B93FE4F9BE6 /* DropdownMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DropdownMenuController.m; path = DropdownMenu/DropdownMenuController.m; sourceTree = "<group>"; };
+		75907DF1647B29FEBD0DDC471F88205D /* DropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		75F184F96A59631C57BC1775AE9303A7 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuViewDelegate.swift; path = CVCalendar/CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
+		7B83E9EBD67420D95F59F27DB9839A8B /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthView.swift; path = CVCalendar/CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		7EEB28FD0485577C1AA02F364FC94A08 /* DropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropdownMenu-dummy.m"; sourceTree = "<group>"; };
+		82D908F604EA9E0495E32DBA7A009418 /* Pods-FitCalTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitCalTests-resources.sh"; sourceTree = "<group>"; };
+		861D975658AA8E0C43631789D1F400A0 /* CVStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVStatus.swift; path = CVCalendar/CVStatus.swift; sourceTree = "<group>"; };
+		868F845061F94FF62F50985C1B7E1230 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarTouchController.swift; path = CVCalendar/CVCalendarTouchController.swift; sourceTree = "<group>"; };
+		8A260F2F28FB21E516D09C96CABA73EB /* Pods-FitCalTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitCalTests-frameworks.sh"; sourceTree = "<group>"; };
+		9216B461ACAC97E367F6EE95415965A8 /* Pods-FitCal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitCal-umbrella.h"; sourceTree = "<group>"; };
+		928D47A35A1CE3EAB35678D00C54C292 /* CVCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarView.swift; path = CVCalendar/CVCalendarView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA465DDB76E5C8E1DC7BB74B6EEF507 /* CVRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVRange.swift; path = CVCalendar/CVRange.swift; sourceTree = "<group>"; };
+		9B842E0AC65599D71CE3646B92BF82F2 /* Pods-FitCalTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitCalTests-umbrella.h"; sourceTree = "<group>"; };
+		9B98D84FB13EE68E466B43532621978A /* Pods-FitCal Watch Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitCal Watch Extension-dummy.m"; sourceTree = "<group>"; };
+		9BF4BADBC8D26403B00C1278EAAB6144 /* Pods_FitCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FitCal.framework; path = "Pods-FitCal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A227BB309351D285850CA57F0D77BF90 /* Pods-FitCal Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitCal Watch.debug.xcconfig"; sourceTree = "<group>"; };
+		A7F8607622B6BF1147032ADE053402C7 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVWeekdaySymbolType.swift; path = CVCalendar/CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		A84C13C162C94E86F0DC59E7DDAC4312 /* DropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropdownMenu.framework; path = DropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADADDD769B679CF896C7EB50DF48EA2 /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewDelegate.swift; path = CVCalendar/CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		AB8E3DF038180D2DFE32671FC73C4427 /* Pods-FitCalTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitCalTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD0A4D754F9BE591E2FA5425F1D5B946 /* CVCalendarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarManager.swift; path = CVCalendar/CVCalendarManager.swift; sourceTree = "<group>"; };
+		B01C1867E04F6EB9A457FC0A2254AA74 /* Pods-FitCal Watch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitCal Watch-acknowledgements.plist"; sourceTree = "<group>"; };
+		B199ECF508C00675B8D07B7E28807D59 /* DropdownMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DropdownMenuSegue.h; path = DropdownMenu/DropdownMenuSegue.h; sourceTree = "<group>"; };
+		B2985329A6071B304D058B1D81FBC860 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B16596E3EB9AE510D6063D03433851 /* CVCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CVCalendar.framework; path = CVCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65D58A3FFDE31B8A37C70E587C5BEF3 /* Pods_FitCal_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FitCal_Watch_Extension.framework; path = "Pods-FitCal Watch Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD30040EE0D95543CD3B320F47D112FB /* Pods-FitCal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FitCal.modulemap"; sourceTree = "<group>"; };
+		C5177E77FD24CBBF980DCBEB977FA7AA /* DropdownMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DropdownMenuController.h; path = DropdownMenu/DropdownMenuController.h; sourceTree = "<group>"; };
+		C524C5AF609081B834694C538A168FA5 /* Pods-FitCal Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitCal Watch.release.xcconfig"; sourceTree = "<group>"; };
+		C66CE701AD3C604487C6185C392C18E7 /* Pods-FitCalTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FitCalTests.modulemap"; sourceTree = "<group>"; };
+		C6C16C7A678DBA0D97F1A9302ECE9C3B /* CVScrollDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVScrollDirection.swift; path = CVCalendar/CVScrollDirection.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFE64721E942EC46AE1E7D59B63A4E6D /* CVCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-prefix.pch"; sourceTree = "<group>"; };
+		D65B54DB79052F0AE84B84778C96CDBF /* Pods-FitCal Watch Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitCal Watch Extension-frameworks.sh"; sourceTree = "<group>"; };
+		D7A37C5D5B2EFE739DC4B319AE8EE3FA /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekView.swift; path = CVCalendar/CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		DBA8F086580DE5781964411E2357C585 /* CVCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CVCalendar.modulemap; sourceTree = "<group>"; };
+		DCDF3938C31D1A3DDD312D2D6D32EBF4 /* Pods-FitCal Watch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitCal Watch-resources.sh"; sourceTree = "<group>"; };
+		DD1AA8E4F5D4355635C5D30CF0487C97 /* DropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropdownMenu.xcconfig; sourceTree = "<group>"; };
+		E559D8A40857EA9B352571634482B660 /* CVSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSet.swift; path = CVCalendar/CVSet.swift; sourceTree = "<group>"; };
+		E5E20661B1022F6A81506BD9371A1AE4 /* DropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		E8A9C8D4E6DA8D3EC8E6F4ED2ECD41AB /* Pods-FitCal Watch Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FitCal Watch Extension.modulemap"; sourceTree = "<group>"; };
+		E978248343CC8DDFE805B5D3FC6BF2C2 /* CVDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVDate.swift; path = CVCalendar/CVDate.swift; sourceTree = "<group>"; };
+		E980A9B69C5F6B06E2A32D566F2CD9CE /* Pods_FitCal_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FitCal_Watch.framework; path = "Pods-FitCal Watch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED48E9DAA722406611C4CE9E1F01F6B2 /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuView.swift; path = CVCalendar/CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		FD2F4E580F16AF45728A2E339BFFAB33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		407152B5425D3690D01B578FB09B88BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982F36836B1D4478FABAF8ACB532BF99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A78FD9D1509C9AF8357AC7B9D365943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D98447F73FB2ED259ABBD03B5539316 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC00A092E3AAB769300A1A1BEEAB446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6362B4F9B127E5347C35A39D08799F8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC09601A9C8DE4A6F7F57CAC3429A064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4589C16BC8A0E4F14B76F9685DF6C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98B91DB3B8E4C62B5F95CBE660A1104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04029AE7697F816777FEFAD3FC06E1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DAA476BC7913F3569CF7A3FD84AFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5752F189E7F6667629E7F3FB2E6E7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CDBA6C35A3382CDB237A4534BABA563 /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				60A9E2F6C5604F8510912384748E07A7 /* CVAuxiliaryView.swift */,
+				3F58FF5493D598BE7AAF0942BF8D5508 /* CVCalendarContentViewController.swift */,
+				068F4A4742510057D560625FF4C2A170 /* CVCalendarDayView.swift */,
+				43E9F02FC20D2BF6CB329A64F89B42D9 /* CVCalendarDayViewControlCoordinator.swift */,
+				AD0A4D754F9BE591E2FA5425F1D5B946 /* CVCalendarManager.swift */,
+				ED48E9DAA722406611C4CE9E1F01F6B2 /* CVCalendarMenuView.swift */,
+				75F184F96A59631C57BC1775AE9303A7 /* CVCalendarMenuViewDelegate.swift */,
+				03B76415ED175398C3A7573D06E89F28 /* CVCalendarMonthContentViewController.swift */,
+				7B83E9EBD67420D95F59F27DB9839A8B /* CVCalendarMonthView.swift */,
+				868F845061F94FF62F50985C1B7E1230 /* CVCalendarTouchController.swift */,
+				928D47A35A1CE3EAB35678D00C54C292 /* CVCalendarView.swift */,
+				2C968415E91692C8F1A68EEDF80DCEF1 /* CVCalendarViewAnimator.swift */,
+				43771317ED388FF0B5E47ADFC561A642 /* CVCalendarViewAnimatorDelegate.swift */,
+				3084E4876D561B3737018F94C52B399A /* CVCalendarViewAppearance.swift */,
+				492AB35BC3DCCED67E06AA2B98F34D92 /* CVCalendarViewAppearanceDelegate.swift */,
+				AADADDD769B679CF896C7EB50DF48EA2 /* CVCalendarViewDelegate.swift */,
+				22B9C8AE7ACBD2A2AF5E6512BD7D7067 /* CVCalendarViewPresentationMode.swift */,
+				35886B055FFEC8F2B3A03BB694A153FC /* CVCalendarWeekContentViewController.swift */,
+				5A6E6E9EE09140072404D6A685841F12 /* CVCalendarWeekday.swift */,
+				D7A37C5D5B2EFE739DC4B319AE8EE3FA /* CVCalendarWeekView.swift */,
+				E978248343CC8DDFE805B5D3FC6BF2C2 /* CVDate.swift */,
+				3FDCF567F36B7E1D058DC4579C401912 /* CVPresent.swift */,
+				9AA465DDB76E5C8E1DC7BB74B6EEF507 /* CVRange.swift */,
+				C6C16C7A678DBA0D97F1A9302ECE9C3B /* CVScrollDirection.swift */,
+				521086661BAFC0741CF9465F4888A23F /* CVSelectionType.swift */,
+				E559D8A40857EA9B352571634482B660 /* CVSet.swift */,
+				167961A3BC874755AC3EAF237542C6CF /* CVShape.swift */,
+				861D975658AA8E0C43631789D1F400A0 /* CVStatus.swift */,
+				A7F8607622B6BF1147032ADE053402C7 /* CVWeekdaySymbolType.swift */,
+				C8EBB051DE2D703FAEB1D7C7158F985A /* Support Files */,
+			);
+			name = CVCalendar;
+			path = CVCalendar;
+			sourceTree = "<group>";
+		};
+		6564645208E584364FD2E06450AB3548 /* Pods-FitCal Watch */ = {
+			isa = PBXGroup;
+			children = (
+				41E2D2A223B644E7FDAB14C156117F72 /* Info.plist */,
+				5CE05A8EBDC1AFB18A1C02B338846604 /* Pods-FitCal Watch.modulemap */,
+				341082BCEF519B8D12FB058DE4A46317 /* Pods-FitCal Watch-acknowledgements.markdown */,
+				B01C1867E04F6EB9A457FC0A2254AA74 /* Pods-FitCal Watch-acknowledgements.plist */,
+				4180288160192DC44215C920F13F59D5 /* Pods-FitCal Watch-dummy.m */,
+				56DFBC3DB4D1F88779D0DF203566E7AB /* Pods-FitCal Watch-frameworks.sh */,
+				DCDF3938C31D1A3DDD312D2D6D32EBF4 /* Pods-FitCal Watch-resources.sh */,
+				6EBD81D7A4227418984BF2B157A2C22F /* Pods-FitCal Watch-umbrella.h */,
+				A227BB309351D285850CA57F0D77BF90 /* Pods-FitCal Watch.debug.xcconfig */,
+				C524C5AF609081B834694C538A168FA5 /* Pods-FitCal Watch.release.xcconfig */,
+			);
+			name = "Pods-FitCal Watch";
+			path = "Target Support Files/Pods-FitCal Watch";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BE9ADDFB87C67E7078DFE6082CA5D48 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF7432537A731E2BAD70649A7F703531 /* Pods-FitCal */,
+				6564645208E584364FD2E06450AB3548 /* Pods-FitCal Watch */,
+				9F96971404CCE3B67A2D48B354E39A7B /* Pods-FitCal Watch Extension */,
+				9224BDB9E4B276F1D6D8289CDBDCFCBE /* Pods-FitCalTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D9DF51132104CB065ED8944A8C0A1F7 /* DropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C5177E77FD24CBBF980DCBEB977FA7AA /* DropdownMenuController.h */,
+				6FBC0A77A6BBE02C7C260B93FE4F9BE6 /* DropdownMenuController.m */,
+				B199ECF508C00675B8D07B7E28807D59 /* DropdownMenuSegue.h */,
+				555788333AC734E2BEB11DAF1F4FC068 /* DropdownMenuSegue.m */,
+				8561C906C8DF663D2C5F510953F76BF1 /* Support Files */,
+			);
+			name = DropdownMenu;
+			path = DropdownMenu;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DB021CA0241E5D3CBF34D611F7BCC7BC /* Pods */,
+				8D8E5C950C8D4CD16C1E2AD0F0A6E58B /* Products */,
+				7BE9ADDFB87C67E7078DFE6082CA5D48 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8561C906C8DF663D2C5F510953F76BF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34AE3886D358EDBF7A8A6978C14715FB /* DropdownMenu.modulemap */,
+				DD1AA8E4F5D4355635C5D30CF0487C97 /* DropdownMenu.xcconfig */,
+				7EEB28FD0485577C1AA02F364FC94A08 /* DropdownMenu-dummy.m */,
+				75907DF1647B29FEBD0DDC471F88205D /* DropdownMenu-prefix.pch */,
+				E5E20661B1022F6A81506BD9371A1AE4 /* DropdownMenu-umbrella.h */,
+				612A867B84815B5B88BEC8961BD3A56E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropdownMenu";
+			sourceTree = "<group>";
+		};
+		8D8E5C950C8D4CD16C1E2AD0F0A6E58B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B16596E3EB9AE510D6063D03433851 /* CVCalendar.framework */,
+				A84C13C162C94E86F0DC59E7DDAC4312 /* DropdownMenu.framework */,
+				9BF4BADBC8D26403B00C1278EAAB6144 /* Pods_FitCal.framework */,
+				E980A9B69C5F6B06E2A32D566F2CD9CE /* Pods_FitCal_Watch.framework */,
+				B65D58A3FFDE31B8A37C70E587C5BEF3 /* Pods_FitCal_Watch_Extension.framework */,
+				54CF9CF8288172B5C30FEC0BBF3DE452 /* Pods_FitCalTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9224BDB9E4B276F1D6D8289CDBDCFCBE /* Pods-FitCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				62839F63160F0FA28BA5BA678D952EAF /* Info.plist */,
+				C66CE701AD3C604487C6185C392C18E7 /* Pods-FitCalTests.modulemap */,
+				0DA3FC9BD5327F5C5CFD4DD67AC2C2CA /* Pods-FitCalTests-acknowledgements.markdown */,
+				AB8E3DF038180D2DFE32671FC73C4427 /* Pods-FitCalTests-acknowledgements.plist */,
+				010A01A75582461990F87514F29EB0F0 /* Pods-FitCalTests-dummy.m */,
+				8A260F2F28FB21E516D09C96CABA73EB /* Pods-FitCalTests-frameworks.sh */,
+				82D908F604EA9E0495E32DBA7A009418 /* Pods-FitCalTests-resources.sh */,
+				9B842E0AC65599D71CE3646B92BF82F2 /* Pods-FitCalTests-umbrella.h */,
+				2AB82F1079A53EFDC34FD5D0A0816FF0 /* Pods-FitCalTests.debug.xcconfig */,
+				65453F2BAABCD2457C99351A1C18EEE2 /* Pods-FitCalTests.release.xcconfig */,
+			);
+			name = "Pods-FitCalTests";
+			path = "Target Support Files/Pods-FitCalTests";
+			sourceTree = "<group>";
+		};
+		9F96971404CCE3B67A2D48B354E39A7B /* Pods-FitCal Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD2F4E580F16AF45728A2E339BFFAB33 /* Info.plist */,
+				E8A9C8D4E6DA8D3EC8E6F4ED2ECD41AB /* Pods-FitCal Watch Extension.modulemap */,
+				37E49115C8D8797D1BE7B6A388D355A4 /* Pods-FitCal Watch Extension-acknowledgements.markdown */,
+				0DDAECBA85A44A871FA621FD8CD9722A /* Pods-FitCal Watch Extension-acknowledgements.plist */,
+				9B98D84FB13EE68E466B43532621978A /* Pods-FitCal Watch Extension-dummy.m */,
+				D65B54DB79052F0AE84B84778C96CDBF /* Pods-FitCal Watch Extension-frameworks.sh */,
+				1D326073542D655D03C4EA22E821ACDA /* Pods-FitCal Watch Extension-resources.sh */,
+				2C68DB45C5C2046B9701C899CD11D32B /* Pods-FitCal Watch Extension-umbrella.h */,
+				148CA5B5C1F64F84FEF05CA682EAB931 /* Pods-FitCal Watch Extension.debug.xcconfig */,
+				61AA89317230582C48A2A4BEA5FE7D67 /* Pods-FitCal Watch Extension.release.xcconfig */,
+			);
+			name = "Pods-FitCal Watch Extension";
+			path = "Target Support Files/Pods-FitCal Watch Extension";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF7432537A731E2BAD70649A7F703531 /* Pods-FitCal */ = {
+			isa = PBXGroup;
+			children = (
+				23FF7280B4B14B5123920DF099059579 /* Info.plist */,
+				BD30040EE0D95543CD3B320F47D112FB /* Pods-FitCal.modulemap */,
+				535E15EEA7B3BEA01C9DCC779D9E0981 /* Pods-FitCal-acknowledgements.markdown */,
+				4C44EBDC04C52A58697084DE7E771100 /* Pods-FitCal-acknowledgements.plist */,
+				49B5BDFB55E674C4D0D1D1908F863747 /* Pods-FitCal-dummy.m */,
+				264F34D1CF4F7AAAD4C9A2A0391E0605 /* Pods-FitCal-frameworks.sh */,
+				3DE6FE9F06E5DD1D956A8022C161B36D /* Pods-FitCal-resources.sh */,
+				9216B461ACAC97E367F6EE95415965A8 /* Pods-FitCal-umbrella.h */,
+				43693BA1B8F41317949AB4F6AD09DA09 /* Pods-FitCal.debug.xcconfig */,
+				3AFB8F57AF84E5D9F3690E52C3E7A66E /* Pods-FitCal.release.xcconfig */,
+			);
+			name = "Pods-FitCal";
+			path = "Target Support Files/Pods-FitCal";
+			sourceTree = "<group>";
+		};
+		C8EBB051DE2D703FAEB1D7C7158F985A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBA8F086580DE5781964411E2357C585 /* CVCalendar.modulemap */,
+				60AB1A7EFB0DBE6AF9C15128ABA68C62 /* CVCalendar.xcconfig */,
+				145EBAC6598B35B4B103A22AAFB2C258 /* CVCalendar-dummy.m */,
+				CFE64721E942EC46AE1E7D59B63A4E6D /* CVCalendar-prefix.pch */,
+				1414D635CBB2AE28527952C57A3B0CBC /* CVCalendar-umbrella.h */,
+				B2985329A6071B304D058B1D81FBC860 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CVCalendar";
+			sourceTree = "<group>";
+		};
+		DB021CA0241E5D3CBF34D611F7BCC7BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CDBA6C35A3382CDB237A4534BABA563 /* CVCalendar */,
+				7D9DF51132104CB065ED8944A8C0A1F7 /* DropdownMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08E5612731D8015F1F611F65B134962F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE9189B3E4F8D15C3C6A216C6CFEADF /* CVCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3750FAD3952FB305F7E31F4BC2116788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDFC1B550DA6697828F4A8E03C6C43C /* Pods-FitCal Watch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97021230BBB9E1E49D28E59678A86834 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84257876BADED68442A9E6BC411EF6E3 /* Pods-FitCal Watch Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84FF2EB9065DA27FEB4E23ED771FAAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFAA7303CF59B7A4E6709B18AAAD2D2 /* Pods-FitCalTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB2CC5709EBF2AA025E801328796CBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86BA5BA83082C8B77A632AB64F526CA /* DropdownMenu-umbrella.h in Headers */,
+				ABC7DD626588A1B49D82914ECA7244C6 /* DropdownMenuController.h in Headers */,
+				9528533A4FFDC6F4F2B667A46B116A4E /* DropdownMenuSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0892CA7BDFC827097248FF700389882 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392889B514B38D80F9CC51D622AF87B3 /* Pods-FitCal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E58D942B79DC2C19C807CC0D5C64F18 /* Pods-FitCal Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1F348BE467104A66A073EF3367AD59 /* Build configuration list for PBXNativeTarget "Pods-FitCal Watch Extension" */;
+			buildPhases = (
+				E522E28EDD07022D845D094CC76A8066 /* Sources */,
+				407152B5425D3690D01B578FB09B88BC /* Frameworks */,
+				97021230BBB9E1E49D28E59678A86834 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FitCal Watch Extension";
+			productName = "Pods-FitCal Watch Extension";
+			productReference = B65D58A3FFDE31B8A37C70E587C5BEF3 /* Pods_FitCal_Watch_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3AB604C8718BA46880A5A91C7AE3E53E /* Pods-FitCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB099D8A83B2BC03451E8FA862454EB /* Build configuration list for PBXNativeTarget "Pods-FitCal" */;
+			buildPhases = (
+				1180E70D3C401E528642C8319B9F91FD /* Sources */,
+				8AC00A092E3AAB769300A1A1BEEAB446 /* Frameworks */,
+				F0892CA7BDFC827097248FF700389882 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51923111DEE0442A54C28405CED1ABEB /* PBXTargetDependency */,
+				CCAC9872C72AD70F79BCB28AB846F114 /* PBXTargetDependency */,
+			);
+			name = "Pods-FitCal";
+			productName = "Pods-FitCal";
+			productReference = 9BF4BADBC8D26403B00C1278EAAB6144 /* Pods_FitCal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE8D56E1BD441BE326210B38C666825A /* Pods-FitCal Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C89E0B2BEA9BB3976828E2E8B21C615 /* Build configuration list for PBXNativeTarget "Pods-FitCal Watch" */;
+			buildPhases = (
+				E6C4716D7BC39277D3A8CD319AEB6876 /* Sources */,
+				D98B91DB3B8E4C62B5F95CBE660A1104 /* Frameworks */,
+				3750FAD3952FB305F7E31F4BC2116788 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FitCal Watch";
+			productName = "Pods-FitCal Watch";
+			productReference = E980A9B69C5F6B06E2A32D566F2CD9CE /* Pods_FitCal_Watch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2EF0A874A01FFC4D77FBAEED4802A12 /* CVCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A65704E9CFDF6E1E9E61A4B1217F72 /* Build configuration list for PBXNativeTarget "CVCalendar" */;
+			buildPhases = (
+				CB7BBC10EB21EC4F8DD14B8990DC41C4 /* Sources */,
+				4A78FD9D1509C9AF8357AC7B9D365943 /* Frameworks */,
+				08E5612731D8015F1F611F65B134962F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVCalendar;
+			productName = CVCalendar;
+			productReference = B3B16596E3EB9AE510D6063D03433851 /* CVCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F08CB105342FFDBFF13574D1DDC85675 /* Pods-FitCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9091C7A936157761427AA032D212CC7B /* Build configuration list for PBXNativeTarget "Pods-FitCalTests" */;
+			buildPhases = (
+				7C4AAAE9EE405B19C401CDEBCEAC7ECC /* Sources */,
+				CC09601A9C8DE4A6F7F57CAC3429A064 /* Frameworks */,
+				B84FF2EB9065DA27FEB4E23ED771FAAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FitCalTests";
+			productName = "Pods-FitCalTests";
+			productReference = 54CF9CF8288172B5C30FEC0BBF3DE452 /* Pods_FitCalTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD0E015881AA6DDE6378C3396CDE9EA0 /* DropdownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5A00D3801F0803BC8B1E4E4E0F10F9 /* Build configuration list for PBXNativeTarget "DropdownMenu" */;
+			buildPhases = (
+				30709A216BFA1445C675167E5C50AB95 /* Sources */,
+				E1DAA476BC7913F3569CF7A3FD84AFE7 /* Frameworks */,
+				DEB2CC5709EBF2AA025E801328796CBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropdownMenu;
+			productName = DropdownMenu;
+			productReference = A84C13C162C94E86F0DC59E7DDAC4312 /* DropdownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8D8E5C950C8D4CD16C1E2AD0F0A6E58B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2EF0A874A01FFC4D77FBAEED4802A12 /* CVCalendar */,
+				FD0E015881AA6DDE6378C3396CDE9EA0 /* DropdownMenu */,
+				3AB604C8718BA46880A5A91C7AE3E53E /* Pods-FitCal */,
+				BE8D56E1BD441BE326210B38C666825A /* Pods-FitCal Watch */,
+				2E58D942B79DC2C19C807CC0D5C64F18 /* Pods-FitCal Watch Extension */,
+				F08CB105342FFDBFF13574D1DDC85675 /* Pods-FitCalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1180E70D3C401E528642C8319B9F91FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181A5BEBDEC34C4925EC344017951FBE /* Pods-FitCal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30709A216BFA1445C675167E5C50AB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4938CCC625FD1AACA9E736DC4F5904 /* DropdownMenu-dummy.m in Sources */,
+				279E99C60593DC32BD673C21C29578D4 /* DropdownMenuController.m in Sources */,
+				A576EA3DA2A59B7D5F895DA93EC2623E /* DropdownMenuSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4AAAE9EE405B19C401CDEBCEAC7ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8851D118184CAE89E3323991380E7D /* Pods-FitCalTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7BBC10EB21EC4F8DD14B8990DC41C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE9B52BEAAE87DDC01D1D3331348CCC /* CVAuxiliaryView.swift in Sources */,
+				759B73DEE436A1747B82091C96AA961A /* CVCalendar-dummy.m in Sources */,
+				618E66A5A98C5E7F029B2215CF5B2FA1 /* CVCalendarContentViewController.swift in Sources */,
+				0322AE7C7462E52BC171E049DA92022E /* CVCalendarDayView.swift in Sources */,
+				472F8C4F8FECD05D59FC63A7B417CA9B /* CVCalendarDayViewControlCoordinator.swift in Sources */,
+				BF9E1BD4685A479CE551145294B4D510 /* CVCalendarManager.swift in Sources */,
+				DDD3AF7B2B9A8451D4478B67A2598108 /* CVCalendarMenuView.swift in Sources */,
+				C990122E1A5B4C93AEEC3871B0C4B7BA /* CVCalendarMenuViewDelegate.swift in Sources */,
+				1F5D23A64CF405A7E27E703991D06DBE /* CVCalendarMonthContentViewController.swift in Sources */,
+				A03312DB6EBBFE6C6CDA2DBE1C5C797E /* CVCalendarMonthView.swift in Sources */,
+				37DB37246156B4060755A627B52A619E /* CVCalendarTouchController.swift in Sources */,
+				6091583F819C7F554B8A7CF32E24E48B /* CVCalendarView.swift in Sources */,
+				2FA521C41374B41D883F61D16FD75932 /* CVCalendarViewAnimator.swift in Sources */,
+				75C5A1D90F6B11EEA116F7E37B8489A4 /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				A324E434E5816AD7A6A81840A3B4B485 /* CVCalendarViewAppearance.swift in Sources */,
+				4B02C653A7A10BDFD0F1578C30608E01 /* CVCalendarViewAppearanceDelegate.swift in Sources */,
+				E11FAF75053E4CA9B59DAB23BA490034 /* CVCalendarViewDelegate.swift in Sources */,
+				96916A8003570201DCD0E76E4FB137E3 /* CVCalendarViewPresentationMode.swift in Sources */,
+				927C2DA86FF68008764A100588179345 /* CVCalendarWeekContentViewController.swift in Sources */,
+				3187AD214B8A128053AEB1396C64FB47 /* CVCalendarWeekday.swift in Sources */,
+				D418639C21B002580BAB5D8CCEBB61B7 /* CVCalendarWeekView.swift in Sources */,
+				6EF53A65E101500A228FD98A4583A17C /* CVDate.swift in Sources */,
+				AA9B3EF50E5BEC5125DE794156B78F4B /* CVPresent.swift in Sources */,
+				4DDF5D1A0800108955F0BEBF7FB90E39 /* CVRange.swift in Sources */,
+				DACA772A4DD7003F779609A1A9195323 /* CVScrollDirection.swift in Sources */,
+				5E861FE2E332746C71EEBD6B87FA8645 /* CVSelectionType.swift in Sources */,
+				E096D06B9EA504CB91B4067A3B746B18 /* CVSet.swift in Sources */,
+				9E9E8E248687AC537EE32C6542C62C1A /* CVShape.swift in Sources */,
+				3AA14958B5E6E03A96F232492EE8C27E /* CVStatus.swift in Sources */,
+				482EBA56488C9532C984C87C00F8F22E /* CVWeekdaySymbolType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E522E28EDD07022D845D094CC76A8066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAD6096E9BC7EED485BB7786EF67FFB /* Pods-FitCal Watch Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C4716D7BC39277D3A8CD319AEB6876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3A53847CAA752CD17754351D7937F1 /* Pods-FitCal Watch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51923111DEE0442A54C28405CED1ABEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CVCalendar;
+			target = E2EF0A874A01FFC4D77FBAEED4802A12 /* CVCalendar */;
+			targetProxy = 87EC01E1CC8F33BAB7BAC080F8FE5ABC /* PBXContainerItemProxy */;
+		};
+		CCAC9872C72AD70F79BCB28AB846F114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropdownMenu;
+			target = FD0E015881AA6DDE6378C3396CDE9EA0 /* DropdownMenu */;
+			targetProxy = 8B23C37C07E28F4B9C68241E172E580E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A1EA87D6E5958282E62012BDC5D8F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFB8F57AF84E5D9F3690E52C3E7A66E /* Pods-FitCal.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitCal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitCal/Pods-FitCal.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitCal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CB0732441C855BE6D2E015024647871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1AA8E4F5D4355635C5D30CF0487C97 /* DropdownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropdownMenu/DropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropdownMenu/DropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		108C4565E34CFBCD21D1AF0D87FB8F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C524C5AF609081B834694C538A168FA5 /* Pods-FitCal Watch.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitCal Watch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitCal Watch/Pods-FitCal Watch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitCal_Watch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11F16EE7E176A82775C3A5B28AC72E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AB1A7EFB0DBE6AF9C15128ABA68C62 /* CVCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		422CC3DE537E344CC198A0334D57DB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A227BB309351D285850CA57F0D77BF90 /* Pods-FitCal Watch.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitCal Watch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitCal Watch/Pods-FitCal Watch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitCal_Watch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A4C6F7EE21F4C24A2F06358E6B4E5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1AA8E4F5D4355635C5D30CF0487C97 /* DropdownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropdownMenu/DropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropdownMenu/DropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		624A087BD67383AAB3A5494951483C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148CA5B5C1F64F84FEF05CA682EAB931 /* Pods-FitCal Watch Extension.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitCal Watch Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitCal Watch Extension/Pods-FitCal Watch Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitCal_Watch_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85C9C3C34F5B6AAAC4EE7EC76F91DD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43693BA1B8F41317949AB4F6AD09DA09 /* Pods-FitCal.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitCal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitCal/Pods-FitCal.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitCal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2BECD92EE1894619FA3E5A3103CDB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AA89317230582C48A2A4BEA5FE7D67 /* Pods-FitCal Watch Extension.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitCal Watch Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitCal Watch Extension/Pods-FitCal Watch Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitCal_Watch_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B20756265A0913A4181337132DEADD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AB1A7EFB0DBE6AF9C15128ABA68C62 /* CVCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7A6210AA94CD475F7AC0750290A4A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB82F1079A53EFDC34FD5D0A0816FF0 /* Pods-FitCalTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitCalTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitCalTests/Pods-FitCalTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitCalTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8B89E084CE9467BC23489AF713ACDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65453F2BAABCD2457C99351A1C18EEE2 /* Pods-FitCalTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitCalTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitCalTests/Pods-FitCalTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitCalTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C89E0B2BEA9BB3976828E2E8B21C615 /* Build configuration list for PBXNativeTarget "Pods-FitCal Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422CC3DE537E344CC198A0334D57DB53 /* Debug */,
+				108C4565E34CFBCD21D1AF0D87FB8F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5A00D3801F0803BC8B1E4E4E0F10F9 /* Build configuration list for PBXNativeTarget "DropdownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB0732441C855BE6D2E015024647871 /* Debug */,
+				5A4C6F7EE21F4C24A2F06358E6B4E5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB099D8A83B2BC03451E8FA862454EB /* Build configuration list for PBXNativeTarget "Pods-FitCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C9C3C34F5B6AAAC4EE7EC76F91DD5F /* Debug */,
+				0A1EA87D6E5958282E62012BDC5D8F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9091C7A936157761427AA032D212CC7B /* Build configuration list for PBXNativeTarget "Pods-FitCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A6210AA94CD475F7AC0750290A4A1D /* Debug */,
+				D8B89E084CE9467BC23489AF713ACDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A65704E9CFDF6E1E9E61A4B1217F72 /* Build configuration list for PBXNativeTarget "CVCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F16EE7E176A82775C3A5B28AC72E8D /* Debug */,
+				B20756265A0913A4181337132DEADD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1F348BE467104A66A073EF3367AD59 /* Build configuration list for PBXNativeTarget "Pods-FitCal Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624A087BD67383AAB3A5494951483C70 /* Debug */,
+				A2BECD92EE1894619FA3E5A3103CDB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

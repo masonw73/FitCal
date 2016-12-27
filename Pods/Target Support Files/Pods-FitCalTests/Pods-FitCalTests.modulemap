@@ -1,0 +1,6 @@
+framework module Pods_FitCalTests {
+  umbrella header "Pods-FitCalTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

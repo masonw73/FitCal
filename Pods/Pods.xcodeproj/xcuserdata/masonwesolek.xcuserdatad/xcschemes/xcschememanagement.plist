@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CVCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DropdownMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FitCal Watch Extension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FitCal Watch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FitCal.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FitCalTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2E58D942B79DC2C19C807CC0D5C64F18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AB604C8718BA46880A5A91C7AE3E53E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE8D56E1BD441BE326210B38C666825A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2EF0A874A01FFC4D77FBAEED4802A12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F08CB105342FFDBFF13574D1DDC85675</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD0E015881AA6DDE6378C3396CDE9EA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
