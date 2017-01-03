@@ -5,16 +5,16 @@ Keeps track of your busy life while making room to be healthy and finding time t
 
 ## Demos
 
-Basic Demo
+#### Basic Demo
 ![Demo](/Screenshots/Intro.gif?raw=true)
 
 ---
-Watch Demo
+#### Watch Demo
 ![Watch Demo](/Screenshots/watchDemo.gif?raw=true)
 
 ---
 
-Saved Workout Demo
+#### Saved Workout Demo
 ![Saved Workout Demo](/Screenshots/savedDemo.gif?raw=true "Saved Workout Demo")
 
 ## Motivation
