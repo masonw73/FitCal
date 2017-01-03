@@ -8,22 +8,22 @@
 
 import UIKit
 import XCTest
-@testable import FoodTracker
+@testable import FitCal
 
-class FoodTrackerTests: XCTestCase {
+class FitCalTests: XCTestCase {
     
     //MARK: FoodTracker Tests
     
     //Tests to confirm that the Meal initializer returns when no name or a negative rating is provided
     func testMealInitialization() {
-        let potentialItem = Meal(name: "Newest meal", photo: nil, rating: 5)
+        let potentialItem = Task(name: "Newest meal", photo: nil, rating: 5)
         XCTAssertNotNil(potentialItem)
         
         //Failure Cases
-        let noName = Meal(name: "", photo: nil, rating: 0)
+        let noName = Task(name: "", photo: nil, rating: 0)
         XCTAssertNil(noName, "Empty name is invalid")
         
-        let badRating = Meal(name: "Really bad rating", photo: nil, rating: -1)
+        let badRating = Task(name: "Really bad rating", photo: nil, rating: -1)
         XCTAssertNil(badRating, "Negative ratings are invalid, be positive")
     }
     

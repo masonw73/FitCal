@@ -1,6 +1,6 @@
 //
 //  CalendarViewController.swift
-//  FoodTracker
+//  FitCal
 //
 //  Created by Mason Wesolek on 11/15/16.
 //  Copyright © 2016 Mason Wesolek. All rights reserved.
@@ -9,9 +9,11 @@
 import UIKit
 import CVCalendar
 import WatchConnectivity
+import CoreData
 
 
 
+@available(iOS 10.0, *)
 class CalendarViewController: UIViewController, WCSessionDelegate  {
     
     
@@ -27,9 +29,14 @@ class CalendarViewController: UIViewController, WCSessionDelegate  {
     var selectedDay:DayView!
     var session: WCSession!
     
+    let dataManager = DataController(context: DataController.getContext())
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         calendarView.contentController.refreshPresentedMonth()
+        
+        
+        
         
         if (WCSession.isSupported()) {
             session = WCSession.default()
@@ -49,36 +56,39 @@ class CalendarViewController: UIViewController, WCSessionDelegate  {
     
     func didSelectDayView(_ dayView: CVCalendarDayView, animationDidFinish: Bool) {
         print("\(dayView.date.commonDescription) is selected!")
-        print(MealTableViewController.tasks[0].name)
         selectedDay = dayView
         workoutText.text = "Workouts: "
         todoText.text = "To-do's: "
-        for Task in MealTableViewController.tasks {
+        let todo = dataManager.getAllTodo()
+        let workout = dataManager.getAllWorkout()
+        for todos in todo {
             print("hi")
-            print(Task.date)
+            print(todos.date)
+            let newDate = dataManager.nsToDate(date: todos.date!)
             print(selectedDay.date.convertedDate()!)
-            if(NSCalendar.current.compare(Task.date, to: selectedDay.date.convertedDate()!, toGranularity: .day) == .orderedSame) {
-                if(Task.photo == UIImage(named: "workout")) {
-                    workoutText.text.append("\n" + Task.name + " for " + Task.workoutTime)
-                }
-                if(Task.photo == UIImage(named: "todo")) {
-                    let dateFormatter = DateFormatter()
-                    dateFormatter.timeStyle = .short
-                    let string = dateFormatter.string(from: Task.date)
-                    todoText.text.append("\n" + Task.name + " at " + string)
-                }
+            if(NSCalendar.current.compare(newDate, to: selectedDay.date.convertedDate()!, toGranularity: .day) == .orderedSame) {
+                
+                let dateFormatter = DateFormatter()
+                dateFormatter.timeStyle = .short
+                let string = dateFormatter.string(from: todos.date as! Date)
+                todoText.text.append("\n" + todos.name! + " at " + string)
                 
             }
+        }
+        for workouts in workout {
+            workoutText.text.append("\n" + workouts.name! + " for " + String(workouts.timeLength))
+        }
+
         selectedDay = dayView
             
         }
         
         
-    }
+    
  
     //Watch Message
     
-    @available(iOS 9.3, *)
+    
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
     }
@@ -117,14 +127,16 @@ class CalendarViewController: UIViewController, WCSessionDelegate  {
         
         
     }
-    
-    
-    
 
-    
-    
 }
 
+    
+
+    
+    
+
+
+@available(iOS 10.0, *)
 extension CalendarViewController: CVCalendarViewDelegate, CVCalendarMenuViewDelegate {
     
     

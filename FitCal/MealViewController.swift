@@ -9,6 +9,7 @@
 import UIKit
 import WatchConnectivity
 
+@available(iOS 10.0, *)
 class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     // MARK: Properties
@@ -30,8 +31,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     or constructed as part of adding a new meal.
     */
     
-    var task: Task?
+    var task: AnyObject?
     static var savedWorkouts = [Task]()
+    let dataManager = DataController(context: DataController.getContext())
     
     
     
@@ -45,11 +47,21 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
        // Handle the text field's user imput through delegate callbacks
         nameTextField.delegate = self
-        if let tasks = task {
-            navigationItem.title = tasks.name
-            nameTextField.text = tasks.name
-            photoImageView.image = tasks.photo
-            ratingControl.rating = tasks.rating
+        print(task.debugDescription)
+        if task != nil {
+            if let tasks = task as? Workout {
+                photoImageView.image = UIImage(named: "workout")
+                ratingControl.rating = Int(tasks.importance)
+                navigationItem.title = tasks.name
+                nameTextField.text = tasks.name
+            }
+            if let tasks = task as? Todo {
+                photoImageView.image = UIImage(named: "todo")
+                ratingControl.rating = Int(tasks.importance)
+                navigationItem.title = tasks.name
+                nameTextField.text = tasks.name
+            }
+            
         }
         
                
@@ -110,16 +122,16 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         if let barButton = sender as? UIBarButtonItem {
         if saveButton === barButton {
             let name = nameTextField.text ?? ""
-            let photo = photoImageView.image
             let rating = ratingControl.rating
             let date = myDate.date
             let workoutTime = self.workoutTime.text ?? ""
             
             if(photoImageView.image == UIImage(named: "todo")) {
-                task = Task(name: name, photo: photo, rating: rating, date: date)
+                dataManager.createTodo(date: date as NSDate, name: name, isCompleted: false, timeToComplete: 60, importance: rating, location: "Home")
+                print("saved!")
             }
             if(photoImageView.image == UIImage(named: "workout")) {
-                task = Task(name: name, photo: photo, rating: rating, date: date, workoutTime: workoutTime)
+                dataManager.createWorkout(date: date as NSDate, timeLength: 60, name: name, isCompleted: false, importance: rating)
             }
         }
         }
@@ -180,7 +192,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         }
         if(photoImageView.image == UIImage(named: "workout")) {
             task = Task(name: name, photo: photo, rating: rating, date: date, workoutTime: workoutTime)
-            MealViewController.savedWorkouts.append(task!)
+            MealViewController.savedWorkouts.append(task! as! Task)
             print(MealViewController.savedWorkouts[0].name)
         }
 
@@ -191,8 +203,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
 
   }
 
+@available(iOS 10.0, *)
 extension MealViewController: UIPickerViewDelegate, UIPickerViewDataSource {
-    @available(iOS 2.0, *)
+    
     public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }

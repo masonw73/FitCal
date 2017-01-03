@@ -13,7 +13,7 @@
         <!--Your Day-->
         <scene sceneID="5Xh-qb-RPa">
             <objects>
-                <tableViewController id="X8C-iq-32t" customClass="MealTableViewController" customModule="FitCal" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MealTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X8C-iq-32t" customClass="MealTableViewController" customModule="FitCal" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="c2A-pH-12l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -345,7 +345,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Dj-G0-i2x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2744.8000000000002" y="2257.4212893553226"/>
+            <point key="canvasLocation" x="2494" y="2167"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FbY-cb-Nj6">
@@ -382,7 +382,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bfy-3P-sIZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1734" y="1938"/>
+            <point key="canvasLocation" x="1055" y="2134"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="O1i-jp-rrv">
@@ -409,6 +409,6 @@
         <image name="todo" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EdZ-xp-ipY"/>
+        <segue reference="rho-My-Ldm"/>
     </inferredMetricsTieBreakers>
 </document>

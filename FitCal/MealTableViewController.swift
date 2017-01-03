@@ -7,28 +7,43 @@
 //
 
 import UIKit
+import CoreData
 
 
+@available(iOS 10.0, *)
 class MealTableViewController: UITableViewController {
     
     //MARK: Properties
     
     static var tasks = [Task]()
+    let dataManager = DataController(context: DataController.getContext())
+    
+    var todo = [Todo]()
+    var workout = [Workout]()
+    
     
     
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      
         
+        
+        todo = dataManager.getAllTodo()
+        workout = dataManager.getAllWorkout()
         navigationItem.leftBarButtonItem = editButtonItem
         
+        
+        self.tableView.reloadData()
 
         //Load the sample data
-        loadSampleMeals()
+        //loadSampleMeals()
       
         
     }
+    
+    
     
     func loadSampleMeals() {
         let photo1 = UIImage(named: "todo")
@@ -46,6 +61,8 @@ class MealTableViewController: UITableViewController {
         MealTableViewController.tasks += [task1, task2, task3, task4]
     }
     
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -60,31 +77,42 @@ class MealTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return MealTableViewController.tasks.count
+        return (todo.count + workout.count)
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "MealTableViewCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MealTableViewCell
         
-        //Fetches the appropriate meal for the data source layout.
-        let meal = MealTableViewController.tasks[(indexPath as NSIndexPath).row]
         
-        let dateFormatter = DateFormatter()
-        dateFormatter.timeStyle = .short
-        dateFormatter.dateStyle = .short
-        let stringDate = dateFormatter.string(from: meal.date)
         
-        cell.nameLabel.text = meal.name
-        cell.photoImageView.image = meal.photo
-        cell.ratingControl.rating = meal.rating
-        cell.completeToggle.setOn(false, animated: true)
+        //Fetches the appropriate task for the data source layout.
+        if (indexPath as NSIndexPath).row < todo.count {
+            let todo = self.todo[(indexPath as NSIndexPath).row]
         
-        if(meal.photo == UIImage(named: "todo")) {
+            let dateFormatter = DateFormatter()
+            dateFormatter.timeStyle = .short
+            dateFormatter.dateStyle = .short
+            let stringDate = dateFormatter.string(from: (todo.date as! Date))
+            
+            cell.nameLabel.text = todo.name
+            cell.photoImageView.image = UIImage(named: "todo")
+            cell.ratingControl.rating = Int(todo.importance)
+            cell.completeToggle.setOn(false, animated: true)
             cell.dateLabel.text = stringDate
         }
-        if(meal.photo == UIImage(named: "workout")) {
-            cell.dateLabel.text = meal.workoutTime
+        else {
+            let workout = self.workout[(indexPath as NSIndexPath).row]
+            
+            let dateFormatter = DateFormatter()
+            dateFormatter.timeStyle = .short
+            dateFormatter.dateStyle = .short
+            
+            cell.nameLabel.text = workout.name
+            cell.photoImageView.image = UIImage(named: "workout")
+            cell.ratingControl.rating = Int(workout.importance)
+            cell.completeToggle.setOn(false, animated: true)
+            cell.dateLabel.text = String(workout.timeLength)
         }
 
         return cell
@@ -136,8 +164,15 @@ class MealTableViewController: UITableViewController {
             //Get the cell that generated this segue.
             if let selectedMealCell = sender as? MealTableViewCell {
                 let indexPath = tableView.indexPath(for: selectedMealCell)!
-                let selectedMeal = MealTableViewController.tasks[(indexPath as NSIndexPath).row]
-                mealDetailViewController.task = selectedMeal
+                todo = dataManager.getAllTodo()
+                workout = dataManager.getAllWorkout()
+                if(indexPath.row < todo.count) {
+                    let selectedMeal = todo[(indexPath as NSIndexPath).row]
+                    mealDetailViewController.task = selectedMeal
+                } else {
+                    let selectedMeal = workout[(indexPath as NSIndexPath).row]
+                    mealDetailViewController.task = selectedMeal
+                }
             }
         }
         else if segue.identifier == "AddItem" {
@@ -153,13 +188,45 @@ class MealTableViewController: UITableViewController {
     sourceViewController.task {
         if let selectedIndexPath = tableView.indexPathForSelectedRow {
             // Update an existing meal
-            MealTableViewController.tasks[selectedIndexPath.row] = task
-            tableView.reloadRows(at: [selectedIndexPath], with: .none)
+            if task is Workout {
+                let work = task as! Workout
+                let workout = dataManager.getWorkoutById(id: work.objectID)!
+                workout.date = work.date
+                workout.importance = work.importance
+                workout.isCompleted = work.isCompleted
+                workout.name = work.name
+                workout.timeLength = work.timeLength
+                dataManager.saveData()
+                
+                
+            }
+            if task is Todo {
+                let todo = task as! Todo
+                let todos = dataManager.getTodoById(id: todo.objectID)!
+                todos.date = todo.date
+                todos.importance = todo.importance
+                todos.isCompleted = todo.isCompleted
+                todos.name = todo.name
+                todos.timeToComplete = todo.timeToComplete
+                dataManager.saveData()
+
+            }
+            
+            self.tableView.reloadData()
         }
+        else {
         // Add a new meal.
         let newIndexPath = IndexPath(row: MealTableViewController.tasks.count, section: 0)
-        MealTableViewController.tasks.append(task)
+        if task is Workout {
+         let work = task as! Workout
+         dataManager.createWorkout(date: work.date!, timeLength: work.timeLength, name: work.name!, isCompleted: work.isCompleted, importance: Int(work.importance))
+        }
+        if task is Todo {
+         let todo = task as! Todo
+         dataManager.createTodo(date: todo.date!, name: todo.name!, isCompleted: todo.isCompleted, timeToComplete: todo.timeToComplete, importance: Int(todo.importance), location: "Home")
+        }
         tableView.insertRows(at: [newIndexPath], with: .bottom)
+        }
     }
   }
 }
