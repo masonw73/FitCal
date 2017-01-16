@@ -11,7 +11,7 @@
 		544432341DF9C11900DEA55E /* Buttons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544432321DF9BF2D00DEA55E /* Buttons.xcassets */; };
 		544432351DF9C95200DEA55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BCC11D1C89DFBF00155579 /* Assets.xcassets */; };
 		548CA2491E123342007530FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BCC11D1C89DFBF00155579 /* Assets.xcassets */; };
-		7E17425F6628D63A7413EF50 /* Pods_FitCal_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB97C0159DE1B6F29D7FF258 /* Pods_FitCal_Watch.framework */; };
+		8526DAFFE868CC4E866B2664 /* Pods_FitCal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226EEDED9A71FEAFCF94BA21 /* Pods_FitCal.framework */; };
 		9311B6961DDB86950057ABEE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BFAAA71DDB5C81001746DC /* CalendarViewController.swift */; };
 		93BCC1171C89DFBF00155579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC1161C89DFBF00155579 /* AppDelegate.swift */; };
 		93BCC1191C89DFBF00155579 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC1181C89DFBF00155579 /* MealViewController.swift */; };
@@ -135,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8526DAFFE868CC4E866B2664 /* Pods_FitCal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +159,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E17425F6628D63A7413EF50 /* Pods_FitCal_Watch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
