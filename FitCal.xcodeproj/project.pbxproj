@@ -10,7 +10,9 @@
 		198F20F8348FF59E132DA27F /* Pods_FitCalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C082B583B397B46A9269814D /* Pods_FitCalTests.framework */; };
 		544432341DF9C11900DEA55E /* Buttons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544432321DF9BF2D00DEA55E /* Buttons.xcassets */; };
 		544432351DF9C95200DEA55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BCC11D1C89DFBF00155579 /* Assets.xcassets */; };
+		546F2B0E1E2F19740023BB6A /* LaunchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546F2B0D1E2F19740023BB6A /* LaunchCollectionViewCell.swift */; };
 		548CA2491E123342007530FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BCC11D1C89DFBF00155579 /* Assets.xcassets */; };
+		54C675781E2F0462005853F2 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C675771E2F0462005853F2 /* LaunchViewController.swift */; };
 		8526DAFFE868CC4E866B2664 /* Pods_FitCal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226EEDED9A71FEAFCF94BA21 /* Pods_FitCal.framework */; };
 		9311B6961DDB86950057ABEE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BFAAA71DDB5C81001746DC /* CalendarViewController.swift */; };
 		93BCC1171C89DFBF00155579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC1161C89DFBF00155579 /* AppDelegate.swift */; };
@@ -91,6 +93,8 @@
 		4C7A93E949C8EC6DDF3DCD28 /* Pods-FitCalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitCalTests/Pods-FitCalTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E47F2A5566079044C1C37BC /* Pods-FitCal Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCal Watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitCal Watch/Pods-FitCal Watch.debug.xcconfig"; sourceTree = "<group>"; };
 		544432321DF9BF2D00DEA55E /* Buttons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Buttons.xcassets; path = ../FitCal/Buttons.xcassets; sourceTree = "<group>"; };
+		546F2B0D1E2F19740023BB6A /* LaunchCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchCollectionViewCell.swift; sourceTree = "<group>"; };
+		54C675771E2F0462005853F2 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		67DB639000C6BF703D154F0A /* Pods-FitCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitCal/Pods-FitCal.debug.xcconfig"; sourceTree = "<group>"; };
 		6C76938A429EAE821E7534C2 /* Pods-FoodTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrackerTests/Pods-FoodTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		77DC1399D838D75D4CC8D9DF /* Pods-FoodTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTracker/Pods-FoodTracker.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,12 +214,14 @@
 				93BCC1181C89DFBF00155579 /* MealViewController.swift */,
 				93BCC1361C8B9D3C00155579 /* RatingControl.swift */,
 				93BCC11A1C89DFBF00155579 /* Main.storyboard */,
+				546F2B0D1E2F19740023BB6A /* LaunchCollectionViewCell.swift */,
 				93BCC13D1C9238B900155579 /* MealTableViewController.swift */,
 				93BCC13B1C8F2BAE00155579 /* MealTableViewCell.swift */,
 				93BCC11D1C89DFBF00155579 /* Assets.xcassets */,
 				93BCC11F1C89DFBF00155579 /* LaunchScreen.storyboard */,
 				93BCC1221C89DFBF00155579 /* Info.plist */,
 				93BFAAA71DDB5C81001746DC /* CalendarViewController.swift */,
+				54C675771E2F0462005853F2 /* LaunchViewController.swift */,
 			);
 			path = FitCal;
 			sourceTree = "<group>";
@@ -637,7 +643,9 @@
 				93BCC1171C89DFBF00155579 /* AppDelegate.swift in Sources */,
 				93BCC13E1C9238B900155579 /* MealTableViewController.swift in Sources */,
 				9311B6961DDB86950057ABEE /* CalendarViewController.swift in Sources */,
+				546F2B0E1E2F19740023BB6A /* LaunchCollectionViewCell.swift in Sources */,
 				93BCC13C1C8F2BAE00155579 /* MealTableViewCell.swift in Sources */,
+				54C675781E2F0462005853F2 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
